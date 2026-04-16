@@ -28,8 +28,8 @@
 - **UI:** XML Layouts & Leanback (для TV).
 
 ## ⚙️ Требования
-- **Android версия:** 5.0+ (minSdk 21)
-- **Целевая версия:** Android 15 (targetSdk 35)
+- **Android версия:** 5.0+
+- **Целевая версия:** Android 15
 
 ---
 
