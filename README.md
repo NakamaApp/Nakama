@@ -28,3 +28,9 @@
 - **targetSdk:** 35 (Android 15)
 
 ![Главный экран](screenshots/main.png)
+![Избранные](screenshots/favorite.png)
+![Поиск](screenshots/search.png)
+![Фильтры](screenshots/filter.png)
+![Тайтл](screenshots/title.png)
+![Выбор озвучки и плеера](screenshots/dub.png)
+![Плеер](screenshots/Player.png)
