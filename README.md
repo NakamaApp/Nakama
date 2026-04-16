@@ -26,3 +26,5 @@
 
 - **minSdk:** 21 (Android 5.0)
 - **targetSdk:** 35 (Android 15)
+
+![Главный экран](screenshots/main.png)
