@@ -27,10 +27,23 @@
 - **minSdk:** 21 (Android 5.0)
 - **targetSdk:** 35 (Android 15)
 
-![Главный экран](screenshots/main.png)
-![Избранные](screenshots/favorite.png)
-![Поиск](screenshots/search.png)
-![Фильтры](screenshots/filter.png)
-![Тайтл](screenshots/title.png)
-![Выбор озвучки и плеера](screenshots/dub.png)
-![Плеер](screenshots/Player.png)
+**Главный экран**
+<img src="screenshots/main.png.png" width="600">
+
+**Избранные тайтлы**
+<img src="screenshots/favorite.png" width="600">
+
+**Поиск**
+<img src="screenshots/search.png" width="600">
+
+**Фильтры**
+<img src="screenshots/filter.png" width="600">
+
+**Тайтл**
+<img src="screenshots/title.png" width="600">
+
+**Выбор озвучки**
+<img src="screenshots/dub.png" width="600">
+
+**Плеер**
+<img src="screenshots/Player.png" width="600">
