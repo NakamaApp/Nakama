@@ -3,47 +3,58 @@
 **Nakama** — это современное Android-приложение для просмотра аниме.
 Проект ориентирован на удобство использования как на мобильных устройствах, так и на **Android TV**.
 
-## 🚀 Основные возможности
+## 📥 Загрузка и установка
+Поскольку этот репозиторий используется для публикации обновлений, вы можете найти последние версии в разделе **Releases**.
 
-- **Мультиплатформенность:** Поддержка каталогов аниме.
-- **Android TV:** Оптимизированный интерфейс для телевизоров с поддержкой пультов ДУ.
-- **Встроенный плеер:** Поддержка форматов MP4, HLS и DASH через ExoPlayer.
-- **Избранное и история:** Сохранение прогресса просмотра и списка любимых тайтлов.
-- **Deep Search:** Продвинутый поиск по всем доступным каталогам.
+1. Перейдите в раздел [**Releases**](https://github.com/NakamaApp/Nakama/releases/latest).
+2. Скачайте актуальный APK-файл.
+3. Установите на устройство (разрешив установку из неизвестных источников).
+
+---
+
+## 🚀 Основные возможности
+- **Мультиплатформенность:** Поддержка различных каталогов аниме.
+- **Android TV:** Интерфейс на базе Leanback, полностью оптимизированный под пульт ДУ.
+- **Встроенный плеер:** Использование ExoPlayer для поддержки MP4, HLS и DASH.
+- **Избранное и история:** Синхронизация прогресса просмотра и управление списком любимых тайтлов.
+- **Deep Search:** Продвинутый поиск по всем доступным источникам.
 
 ## 🛠 Технологический стек
-
-- **Архитектура:** MVVM, Clean Architecture (модули `app`, `domain`, `data`, `source-api`).
-- **Инъекция зависимостей:** [Hilt](https://dagger.dev/hilt/)
-- **Загрузка изображений:** [Glide](https://github.com/bumptech/glide)
-- **Плеер:** [Media3 / ExoPlayer](https://developer.android.com/guide/topics/media/exoplayer)
-- **Реактивное программирование:** [RxJava 3](https://github.com/ReactiveX/RxJava) и Coroutines.
-- **UI:** XML Layouts, [Leanback](https://developer.android.com/jetpack/androidx/releases/leanback) для Android TV.
+- **Архитектура:** MVVM, Clean Architecture.
+- **DI:** Hilt.
+- **Image Loading:** Glide.
+- **Player:** Media3 / ExoPlayer.
+- **Async:** RxJava 3 & Coroutines.
+- **UI:** XML Layouts & Leanback (для TV).
 
 ## ⚙️ Требования
+- **Android версия:** 5.0+ (minSdk 21)
+- **Целевая версия:** Android 15 (targetSdk 35)
 
-Проект использует Gradle (Kotlin DSL). 
+---
 
-- **minSdk:** 21 (Android 5.0)
-- **targetSdk:** 35 (Android 15)
+## 📸 Скриншоты интерфейса
 
-**Главный экран**
-<img src="screenshots/main.png.png" width="600">
+<details>
+  <summary>Посмотреть скриншоты</summary>
 
-**Избранные тайтлы**
-<img src="screenshots/favorite.png" width="600">
+### Основные разделы
+| Главный экран | Избранное |
+|---|---|
+| <img src="screenshots/main.png" width="400"> | <img src="screenshots/favorite.png" width="400"> |
 
-**Поиск**
-<img src="screenshots/search.png" width="600">
+### Поиск и фильтрация
+| Поиск | Фильтры |
+|---|---|
+| <img src="screenshots/search.png" width="400"> | <img src="screenshots/filter.png" width="400"> |
 
-**Фильтры**
-<img src="screenshots/filter.png" width="600">
-
-**Тайтл**
-<img src="screenshots/title.png" width="600">
-
-**Выбор озвучки**
-<img src="screenshots/dub.png" width="600">
+### Просмотр и плеер
+| Страница тайтла | Выбор озвучки |
+|---|---|
+| <img src="screenshots/title.png" width="400"> | <img src="screenshots/dub.png" width="400"> |
 
 **Плеер**
+<br>
 <img src="screenshots/Player.png" width="600">
+
+</details>
