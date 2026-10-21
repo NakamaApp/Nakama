@@ -40,6 +40,8 @@ domain:ya-ligh.com
 
 domain:aniboom.one
 
+domain:cdngos.com
+
 suffix:.kodik-storage.com
 
 suffix:.kodik-cdn.com
